@@ -45,7 +45,6 @@
             "TRNG",
             "USBDEVICE"
         ],
-        "device_name": "STM32L4A6RG",
-        "bootloader_supported": true
+        "device_name": "STM32L4A6RG"
     }
 }
