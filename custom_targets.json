@@ -23,7 +23,7 @@
             "MCU_STM32L4A6xG"
         ],
         "extra_labels_add": [
-            "STM32L4A6RG",
+            "STM32L4A6RG"
         ],
         "config": {
             "clock_source": {
