@@ -19,6 +19,7 @@
         ]
     },
     "ZEST_CORE_STM32L4A6RG": {
+        "bootloader_supported": false,
         "inherits": [
             "MCU_STM32L4A6xG"
         ],
@@ -26,14 +27,16 @@
             "STM32L4A6RG"
         ],
         "config": {
+            "usb_speed": {
+                "help": "USE_USB_OTG_FS or USE_USB_OTG_HS or USE_USB_HS_IN_FS",
+                "value": "USE_USB_OTG_FS"
+            }
+        },
+        "overrides": {
             "clock_source": {
                 "help": "Mask value: USE_PLL_HSI | USE_PLL_MSI (default)",
                 "value": "USE_PLL_MSI",
                 "macro_name": "CLOCK_SOURCE"
-            },
-            "usb_speed": {
-                "help": "USE_USB_OTG_FS or USE_USB_OTG_HS or USE_USB_HS_IN_FS",
-                "value": "USE_USB_OTG_FS"
             }
         },
         "macros_add": [
