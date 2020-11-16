@@ -33,11 +33,7 @@
             }
         },
         "overrides": {
-            "clock_source": {
-                "help": "Mask value: USE_PLL_HSI | USE_PLL_MSI (default)",
-                "value": "USE_PLL_MSI",
-                "macro_name": "CLOCK_SOURCE"
-            }
+            "clock_source": "USE_PLL_MSI"
         },
         "macros_add": [
             "STM32L4A6xx",
