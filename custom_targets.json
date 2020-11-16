@@ -43,6 +43,6 @@
             "QSPI",
             "USBDEVICE"
         ],
-        "device_name": "STM32L4A6RG"
+        "device_name": "STM32L4A6RGTx"
     }
 }
