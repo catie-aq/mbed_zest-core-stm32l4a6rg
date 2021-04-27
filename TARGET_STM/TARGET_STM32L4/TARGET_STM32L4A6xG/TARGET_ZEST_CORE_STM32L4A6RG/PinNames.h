@@ -197,14 +197,14 @@ typedef enum {
 
     // STDIO for console print
 #ifdef MBED_CONF_TARGET_STDIO_UART_TX
-    STDIO_UART_TX = MBED_CONF_TARGET_STDIO_UART_TX,
+    CONSOLE_TX = MBED_CONF_TARGET_STDIO_UART_TX,
 #else
-    STDIO_UART_TX = PC_4,
+    CONSOLE_TX = PC_4,
 #endif
 #ifdef MBED_CONF_TARGET_STDIO_UART_RX
-    STDIO_UART_RX = MBED_CONF_TARGET_STDIO_UART_RX,
+    CONSOLE_RX = MBED_CONF_TARGET_STDIO_UART_RX,
 #else
-    STDIO_UART_RX = PC_5,
+    CONSOLE_RX = PC_5,
 #endif
 
     // Standardized LED namings
@@ -217,10 +217,6 @@ typedef enum {
     BUTTON1     = PH_3,
 
     // Standardized signal names
-    SERIAL_TX   = STDIO_UART_TX, // Virtual Com Port
-    SERIAL_RX   = STDIO_UART_RX, // Virtual Com Port
-    USBTX       = STDIO_UART_TX, // Virtual Com Port
-    USBRX       = STDIO_UART_RX, // Virtual Com Port
     I2C_SCL     = I2C1_SCL,
     I2C_SDA     = I2C1_SDA,
     SPI_MOSI    = SPI1_MOSI,
