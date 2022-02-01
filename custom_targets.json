@@ -20,6 +20,7 @@
     },
     "ZEST_CORE_STM32L4A6RG": {
         "bootloader_supported": true,
+		"supported_toolchains": ["ARM", "GCC_ARM"],
         "inherits": [
             "MCU_STM32L4A6xG"
         ],
