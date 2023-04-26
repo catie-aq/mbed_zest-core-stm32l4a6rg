@@ -20,5 +20,5 @@ In your project root directory:
 3. Compile for the custom target:
 
    ```shell
-   mbed compile --target ZEST_CORE_STM32L4A6RG
+   mbed compile --target ZEST_CORE_STM32L4A6RG --toolchain GCC_ARM
    ```
