@@ -1,5 +1,5 @@
 # ZEST_CORE_STM32L4A6RG
-[ZEST_CORE_STM32L4A6RG](https://member.6tron.io/) custom target for Mbed OS.
+ZEST_CORE_STM32L4A6RG custom target for Mbed OS.
 
 ## Usage
 In your project root directory:
